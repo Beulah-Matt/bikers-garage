@@ -1,5 +1,5 @@
 
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram  } from "../assets";
 
 export const navLinks = [
   {
@@ -28,12 +28,12 @@ export const footerLinks = [
         link: "/",
       },
       {
-        name: "Investor Relations",
-        link: "https://ir.netflix.net/ir-overview/profile/default.aspx",
+        name: "Customer Relations",
+        link: "/",
       },
       {
         name: "Privacy",
-        link: "https://help.netflix.com/legal/privacy",
+        link: "/",
       },
       {
         name: "Speed Test",
@@ -47,19 +47,19 @@ export const footerLinks = [
 
       {
         name: "Suggestions",
-        link: "https://www.imdb.com/search/title/?country_of_origin=KE",
+        link: "/",
       },
       {
-        name: "Rotten Tomatoes",
-        link: "https://www.rottentomatoes.com/",
+        name: "Tool Kit",
+        link: "/",
       },
       {
-        name: "Kids Shows",
-        link: "https://www.netflix.com/ke/browse/genre/27346",
+        name: "Spare Parts",
+        link: "/",
       },
       {
-        name: "Series To Watch",
-        link: "https://collider.com/best-tv-shows-to-binge-watch/",
+        name: "Testimonials",
+        link: "/",
       },
     ],
   },
@@ -67,13 +67,13 @@ export const footerLinks = [
     title: "Account",
     links: [
       {
-        name: "Ways to Watch",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Ways to book",
+        link: "/",
       },
 
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "/",
       },
     ],
   },

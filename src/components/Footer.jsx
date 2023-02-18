@@ -9,11 +9,11 @@ const Footer = () => (
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
           src={logo3}
-          alt="hoobank"
+          alt="bikers"
           className="w-[266px] h-[72.14px] object-contain"
         />
         <p className="font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] mt-4 max-w-[312px]">
-          A new way to make the payments easy, reliable and secure.
+          A new way to view and book mechanic services.
         </p>
       </div>
 
