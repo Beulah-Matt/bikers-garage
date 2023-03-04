@@ -24,8 +24,11 @@ const Hero = () => {
       </div>
       <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">Mechanic Provider.
       </h1>
-      
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eaque earum inventore excepturi accusantium, hic fugiat optio temporibus. Illum animi quidem quia ad amet id laboriosam dicta ducimus commodi ex!</p>
     </div> 
+    <div id='right-side' className=''>
+      <img src={hero} alt="motorbike" className='w-[100%] h-[100%] relative z-[5]'/>
+    </div>
    </section>
   )
 }
