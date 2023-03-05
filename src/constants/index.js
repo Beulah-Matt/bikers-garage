@@ -101,3 +101,21 @@ export const socialMedia = [
     link: "https://www.linkedin.com/",
   },
 ];
+ 
+export const stats = [
+  {
+    id: 1,
+    value: 700,
+    title: "Bikes repaired"
+  },
+  {
+    id: 2,
+    value: 5,
+    title: "Cities Covered"
+  },
+  {
+    id: 3,
+    value: 43,
+    title: "Work Partners"
+  }
+]
