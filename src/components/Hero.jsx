@@ -26,9 +26,18 @@ const Hero = () => {
       </h1>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eaque earum inventore excepturi accusantium, hic fugiat optio temporibus. Illum animi quidem quia ad amet id laboriosam dicta ducimus commodi ex!</p>
     </div> 
-    <div id='right-side' className=''>
+    <div id='right-side' className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
       <img src={hero} alt="motorbike" className='w-[100%] h-[100%] relative z-[5]'/>
+    {/* gradients to show light at the back of image */}
+      <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
+      <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
+      <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
     </div>
+
+    {/* show this div when the device is a mobile screen */}
+    <div className={`ss:hidden ${styles.flexCenter}`}>
+        <GetStarted />
+      </div>
    </section>
   )
 }
