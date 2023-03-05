@@ -1,5 +1,5 @@
 
-import { people01, people02, people03, facebook, instagram, twitter, linkedin  } from "../assets";
+import { people01, people02, people03, facebook, instagram, twitter, linkedin, shield, star, send  } from "../assets";
 
 export const navLinks = [
   {
@@ -119,3 +119,27 @@ export const stats = [
     title: "Work Partners"
   }
 ]
+
+export const benefits = [
+  {
+    id: 1,
+    icon: star,
+    title: "Benefits",
+    content:
+      "A youth owned enterprise that is fast growing and accomodative of your needs",
+  },
+  {
+    id: 2,
+    icon: shield,
+    title: "100% Secured",
+    content:
+      "We take proactive steps make sure your bike is safe from the moment you leave it with us until you collect it.",
+  },
+  {
+    id: 3,
+    icon: send,
+    title: "Convinient",
+    content:
+      "Our mechanics are flexible and can come to you or pick up your motorbike for servicing and deliver it after.",
+  },
+];
