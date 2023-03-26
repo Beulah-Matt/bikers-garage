@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from "./style";
-import { Gallery, Services, CardDeal, Clients, Contact, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import { Gallery, Services, Clients, Contact, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
 import Home from './components/Home';
+import CallToAction from './components/CallToAction';
 
 const App = () => {
   return (
@@ -24,10 +25,9 @@ const App = () => {
         <Home />
         <Services />
         <Gallery />
-        <CardDeal />
         <Testimonials />
         <Clients />
-        <Contact />
+        <CallToAction />
         <Footer />
       </div>
     </div>

@@ -1,6 +1,5 @@
 import Navbar from "./Navbar";
 import Gallery from "./Gallery";
-import CardDeal from "./CardDeal";
 import Services from "./Services";
 import Clients from "./Clients";
 import Contact from "./Contact";
@@ -12,7 +11,6 @@ import Hero from "./Hero";
 export {
   Navbar,
   Gallery,
-  CardDeal,
   Services,
   Clients,
   Contact,

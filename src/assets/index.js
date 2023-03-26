@@ -17,7 +17,11 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import hero from "./hero.jpg";
-
+import image1 from "./image1.jpg"
+import muthokinju from "./muthokinju.jpg"
+import ruiruWater from "./ruiruWater.png"
+import valentine from "./valentine.jpg"
+import boxer from "./boxer.png"
 
 export {
   logo3,
@@ -38,5 +42,10 @@ export {
   people01,
   people02,
   people03,
+  image1 ,
   hero,
+  boxer,
+  valentine,
+  muthokinju,
+  ruiruWater, 
 };
