@@ -22,6 +22,7 @@ import muthokinju from "./muthokinju.jpg"
 import ruiruWater from "./ruiruWater.png"
 import valentine from "./valentine.jpg"
 import boxer from "./boxer.png"
+import home from "./home.svg"
 
 export {
   logo3,
@@ -48,4 +49,5 @@ export {
   valentine,
   muthokinju,
   ruiruWater, 
+  home
 };
