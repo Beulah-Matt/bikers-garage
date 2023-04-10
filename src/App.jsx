@@ -28,6 +28,7 @@ const App = () => {
         <Testimonials />
         <Clients />
         <CallToAction />
+        <Contact />
         <Footer />
       </div>
     </div>
