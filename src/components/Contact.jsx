@@ -16,13 +16,13 @@ const Contact = () => {
   }
 
   return (
-    <div className="relative mx-auto w-full max-w-7xl bg-primary text-gray-700">
+    <div className="relative mx-auto w-full max-w-7xl bg-primary text-gray-700 top-[50px] ">
       <div className="grid grid-cols-2">
         
         {/* :MAP CONTAINER */}
-        <div className="order-1 col-span-full">
+        <div className="order-1 col-span-full rounded-md">
           <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d877.1474363420984!2d36.75886476819693!3d-1.1730118432989485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sBahima%20petrol%20station%20banana!5e0!3m2!1sen!2ske!4v1681125278453!5m2!1sen!2ske" 
-            title="map" scrolling="no" frameborder="0"
+            title="map" scrolling="no" frameBorder="0"
             width="100%" height="300px"
             className="" 
             loading="lazy" 
@@ -40,7 +40,7 @@ const Contact = () => {
               {/* :::input */}
               <input ref={nameRef} type="text" id="name" name="name"
                 placeholder="Name"
-                className="form-input w-full block shadow-sm rounded border-gray-300 bg-gray-100 text-base placeholder-gray-300 focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400"
+                className="form-input w-full block shadow-sm rounded border-gray-300 bg-gray-100 text-base placeholder-gray-500 focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400"
               />
             </div>
             {/* ::Email Input */}
@@ -50,7 +50,7 @@ const Contact = () => {
               {/* :::input */}
               <input ref={emailRef} type="email" id="email" name="email"
                 placeholder="Email Address"
-                className="form-input w-full block shadow-sm rounded border-gray-300 bg-gray-100 text-base placeholder-gray-300 focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400"
+                className="form-input w-full block shadow-sm rounded border-gray-300 bg-gray-100 text-base placeholder-gray-500 focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400"
               />
             </div>
             {/* ::Message Input */}
@@ -60,7 +60,7 @@ const Contact = () => {
               {/* :::input */}
               <textarea ref={messageRef} name="message" id="message" cols="30" rows="4"
                 placeholder="How can we help?"
-                className="form-textarea resize-none w-full shadow-sm rounded border-gray-300 bg-gray-100 placeholder-gray-300 focus:border-cyan-400 focus:ring-cyan-400"
+                className="form-textarea resize-none w-full shadow-sm rounded border-gray-300 bg-gray-100 placeholder-gray-500 focus:border-cyan-400 focus:ring-cyan-400"
               ></textarea>
             </div>
             {/* ::Submit Button */}

@@ -7,6 +7,7 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
+import CallToAction from "./CallToAction";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   Footer,
   Testimonials,
   Hero,
+  CallToAction
 };

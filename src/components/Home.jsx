@@ -2,9 +2,18 @@ import { benefits } from "../constants";
 import styles, { layout } from "../style";
 import BenefitsCard from "./BenefitsCard";
 import Button from "./Button";
+import { Hero, Stats, Clients, Testimonials, CallToAction } from "../components";
 
 const Home = () => {
   return (
+    <>
+     <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Hero />
+      </div>
+    </div>
+    <Stats />
+
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
@@ -27,6 +36,11 @@ const Home = () => {
     </div> 
 
     </section>
+
+    <Testimonials />
+    <Clients />
+    <CallToAction />
+    </>
   );
 };
 
