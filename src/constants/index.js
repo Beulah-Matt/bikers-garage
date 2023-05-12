@@ -1,5 +1,5 @@
 
-import { people01, people02, people03, facebook, instagram, twitter, linkedin, shield, star, send, image1, valentine, ruiruWater, muthokinju, boxer  } from "../assets";
+import { people01, people02, people03, facebook, instagram, twitter, linkedin, shield, star, send, image1, valentine, ruiruWater, muthokinju, boxer, whatsapp  } from "../assets";
 
 export const navLinks = [
   {
@@ -90,6 +90,11 @@ export const socialMedia = [
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
+  },
+  {
+    id: "social-media-5",
+    icon: whatsapp,
+    link: "https://wa.me/254742837697",
   },
 ];
  

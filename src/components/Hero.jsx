@@ -19,7 +19,7 @@ const Hero = () => {
           <span className='text-gradient'>Competent</span> {" "}
         </h1>
         <div className="ss:flex hidden md:mr-4 mr-0">
-            <GetStarted/>
+            {/* <GetStarted/> */}
           </div>
       </div>
       <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">Mechanic Provider.
