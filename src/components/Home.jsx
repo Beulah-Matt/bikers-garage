@@ -3,6 +3,7 @@ import styles, { layout } from "../style";
 import BenefitsCard from "./BenefitsCard";
 import Button from "./Button";
 import { Hero, Stats, Clients, Testimonials, CallToAction } from "../components";
+import Example from "./Example";
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
     <Testimonials />
     <Clients />
     <CallToAction />
+    <Example />
     </>
   );
 };
